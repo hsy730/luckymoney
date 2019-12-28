@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document type="BLUMIND" editor_version="3.1.5079.19139" document_version="3.0.0.0">
+  <!--Create by Blumind, you can download it free from http://www.blumind.org-->
+  <information>
+    <author>79978</author>
+    <company>
+    </company>
+    <version>3.0</version>
+    <description>
+    </description>
+  </information>
+  <attributes>
+    <item name="editor_show_sidebar">True</item>
+  </attributes>
+  <charts active_chart="0">
+    <chart name="新页面 1" type="MindMap">
+      <remark>
+      </remark>
+      <layout>MIND_MAP</layout>
+      <style>
+        <back_color>White</back_color>
+        <fore_color>Black</fore_color>
+        <line_color>LightSlateGray</line_color>
+        <border_color>SlateGray</border_color>
+        <node_back_color>LightGray</node_back_color>
+        <node_fore_color>Black</node_fore_color>
+        <select_color>RoyalBlue</select_color>
+        <hover_color>MediumSlateBlue</hover_color>
+        <link_line_color>Green</link_line_color>
+        <widget_margin>1</widget_margin>
+        <picture_thumb_size>100, 100</picture_thumb_size>
+      </style>
+      <nodes>
+        <node id="1" text="2小时学会springboot" x="475" y="378" width="151" height="41" text_b="12, 12, 127, 17">
+          <style>
+            <back_color>Silver</back_color>
+            <fore_color>Black</fore_color>
+            <border_color>Black</border_color>
+            <padding>12</padding>
+          </style>
+          <nodes>
+            <node id="2" text="事务" x="362" y="347" width="33" height="21" folded="True" text_b="2, 2, 29, 17" fold_btn_b="348, 351, 13, 13">
+              <nodes>
+                <node id="3" text="特指数据库事务" x="2499" y="1893" width="95" height="21" text_b="2, 2, 91, 17" />
+                <node id="4" text="@Transactional" x="2494" y="1924" width="100" height="21" text_b="2, 2, 96, 17" />
+              </nodes>
+              <lines />
+            </node>
+            <node id="5" text="数据库" x="349" y="428" width="46" height="21" folded="True" text_b="2, 2, 42, 17" fold_btn_b="335, 432, 13, 13">
+              <nodes>
+                <node id="6" text="Spring-Data-Jpa" x="1708" y="1622" width="105" height="21" text_b="2, 2, 101, 17" fold_btn_b="1694, 1626, 13, 13">
+                  <nodes>
+                    <node id="7" text="extends Jpa Repository" x="1483" y="1622" width="145" height="21" text_b="2, 2, 141, 17" fold_btn_b="1469, 1626, 13, 13">
+                      <nodes>
+                        <node id="8" text="save" x="1368" y="1591" width="35" height="21" text_b="2, 2, 31, 17" />
+                        <node id="9" text="findById" x="1346" y="1622" width="57" height="21" text_b="2, 2, 53, 17" />
+                        <node id="10" text="findAll" x="1356" y="1653" width="47" height="21" text_b="2, 2, 43, 17" />
+                      </nodes>
+                      <lines>
+                        <line target="8" begin_side="Left" end_side="Right" begin_rect="1470, 1622, 158, 21" end_rect="1368, 1591, 35, 21" />
+                        <line target="9" begin_side="Left" end_side="Right" begin_rect="1470, 1622, 158, 21" end_rect="1346, 1622, 57, 21" />
+                        <line target="10" begin_side="Left" end_side="Right" begin_rect="1470, 1622, 158, 21" end_rect="1356, 1653, 47, 21" />
+                      </lines>
+                    </node>
+                  </nodes>
+                  <lines>
+                    <line target="7" begin_side="Left" end_side="Right" begin_rect="1695, 1622, 118, 21" end_rect="1483, 1622, 145, 21" />
+                  </lines>
+                </node>
+              </nodes>
+              <lines />
+            </node>
+            <node id="11" text="Controller" x="706" y="347" width="68" height="21" folded="True" text_b="2, 2, 64, 17" fold_btn_b="775, 351, 13, 13">
+              <nodes>
+                <node id="12" text="方式" x="1242" y="714" width="33" height="21" text_b="2, 2, 29, 17" fold_btn_b="1276, 718, 13, 13">
+                  <nodes>
+                    <node id="13" text="@Controller" x="1355" y="683" width="80" height="21" text_b="2, 2, 76, 17" />
+                    <node id="14" text="@ResponseBody" x="1355" y="714" width="108" height="21" text_b="2, 2, 104, 17" />
+                    <node id="15" text="@RestController" x="1355" y="745" width="106" height="21" text_b="2, 2, 102, 17" />
+                  </nodes>
+                  <lines>
+                    <line target="13" begin_side="Right" end_side="Left" begin_rect="1242, 714, 46, 21" end_rect="1355, 683, 80, 21" />
+                    <line target="14" begin_side="Right" end_side="Left" begin_rect="1242, 714, 46, 21" end_rect="1355, 714, 108, 21" />
+                    <line target="15" begin_side="Right" end_side="Left" begin_rect="1242, 714, 46, 21" end_rect="1355, 745, 106, 21" />
+                  </lines>
+                </node>
+                <node id="16" text="获取参数" x="1242" y="792" width="58" height="21" text_b="2, 2, 54, 17" fold_btn_b="1301, 796, 13, 13">
+                  <nodes>
+                    <node id="17" text="@PathVariable" x="1380" y="776" width="96" height="21" text_b="2, 2, 92, 17" />
+                    <node id="18" text="@RequestParam" x="1380" y="807" width="107" height="21" text_b="2, 2, 103, 17" />
+                  </nodes>
+                  <lines>
+                    <line target="17" begin_side="Right" end_side="Left" begin_rect="1242, 792, 71, 21" end_rect="1380, 776, 96, 21" />
+                    <line target="18" begin_side="Right" end_side="Left" begin_rect="1242, 792, 71, 21" end_rect="1380, 807, 107, 21" />
+                  </lines>
+                </node>
+              </nodes>
+              <lines />
+            </node>
+            <node id="19" text="项目配置" x="706" y="428" width="58" height="21" folded="True" text_b="2, 2, 54, 17" fold_btn_b="765, 432, 13, 13">
+              <nodes>
+                <node id="20" text="单个配置@Value" x="1620" y="1255" width="104" height="21" text_b="2, 2, 100, 17" />
+                <node id="21" text="对象配置@ConfigurationProperties" x="1620" y="1286" width="213" height="21" text_b="2, 2, 209, 17" />
+                <node id="22" text="开发/生产多环境配置" x="1620" y="1317" width="125" height="21" text_b="2, 2, 121, 17" />
+              </nodes>
+              <lines />
+            </node>
+          </nodes>
+          <lines>
+            <line target="2" begin_side="Left" end_side="Right" begin_rect="475, 378, 151, 41" end_rect="362, 347, 33, 21" />
+            <line target="5" begin_side="Left" end_side="Right" begin_rect="475, 378, 151, 41" end_rect="349, 428, 46, 21" />
+            <line target="11" begin_side="Right" end_side="Left" begin_rect="475, 378, 151, 41" end_rect="706, 347, 68, 21" />
+            <line target="19" begin_side="Right" end_side="Left" begin_rect="475, 378, 151, 41" end_rect="706, 428, 58, 21" />
+          </lines>
+        </node>
+      </nodes>
+    </chart>
+  </charts>
+</document>
